@@ -14,9 +14,12 @@
 <p>MaxHealthing is a personal, single-user training planner. It is not offered to the public, and only its owner signs in to it.</p>
 
 <h2>Privacy policy</h2>
+<p><small>Last updated: 17 October 2026</small></p>
 <ul>
-  <li>With the owner's permission, it reads and writes only the owner's own Google Calendar events and sends and reads only the owner's own MaxHealthing emails through Gmail.</li>
-  <li>All data stays on the owner's own computer. Nothing is sold, shared with anyone, or used for advertising.</li>
+  <li>With the owner's permission, it uses only these Google permissions for the owner's own account: Google Calendar events (<code>calendar.events</code>) to read the owner's training sessions and add the owner's own training events; Gmail send (<code>gmail.send</code>) to send the owner's own MaxHealthing reminder emails; and Gmail read (<code>gmail.readonly</code>) only to find the owner's own "MaxHealthing stop" emails so a reminder can be turned off. It also uses the owner's sign-in email (<code>openid</code>, <code>email</code>) to check that the right account is signed in.</li>
+  <li>Data is stored on the owner's own computer. The owner can open the app from the owner's own phone or another device through a private link that needs a secret key; that link is carried over an encrypted connection (Tailscale) to the owner's computer, and without the key it shows nothing.</li>
+  <li>Nothing is sold, shared with anyone, or used for advertising, and no one else reads it.</li>
+  <li>MaxHealthing's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
   <li>The owner can revoke access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
 </ul>
 
